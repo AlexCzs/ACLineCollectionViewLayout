@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  线性布局
+//
+//  Created by 陈昭燊 on 16/3/2.
+//  Copyright © 2016年 陈昭燊. All rights reserved.
+//
+
+
+#ifndef __IPHONE_3_0
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import "Masonry.h"
+#endif
